@@ -1,16 +1,14 @@
 import React from "react"
 import { createGlobalStyle } from "styled-components"
 
+import "../../assets/fonts/fonts.css"
+
 const GlobalStyle = createGlobalStyle`
   body {
     padding: 0;
     margin: 0;
     color: white;
-  }
-
-  h1 {
-    margin: 0;
-    color: blue;
+    font-family: 'Open sans';
   }
 
   *, *::before, *::after {
