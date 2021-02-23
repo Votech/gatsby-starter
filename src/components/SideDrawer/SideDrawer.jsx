@@ -2,12 +2,12 @@ import React from "react"
 
 import { StyledSideDrawer } from "./SideDrawer.styled"
 
-import Nav from "../Nav/Nav"
+import NavColumn from "../NavColumn/NavColumn"
 
 const SideDrawer = ({ open }) => {
   return (
     <StyledSideDrawer open={open}>
-      <Nav />
+      <NavColumn />
     </StyledSideDrawer>
   )
 }

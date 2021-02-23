@@ -7,6 +7,7 @@ import { useOnClickOutside } from "../../utils/hooks"
 
 import Header from "../Header/Header"
 import SideDrawer from "../SideDrawer/SideDrawer"
+import Backdrop from "../Backdrop/Backdrop"
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -32,6 +33,7 @@ const Layout = ({ children }) => {
           <Header open={open} setOpen={setOpen} />
           <SideDrawer open={open} setOpen={setOpen} />
         </div>
+        <Backdrop open={open} />
         <div>{children}</div>
       </>
     </ThemeProvider>

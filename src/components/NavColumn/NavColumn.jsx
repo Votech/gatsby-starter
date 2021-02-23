@@ -1,11 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import { StyledNav } from "./Nav.styled"
+import { StyledNavColumn } from "./NavColumn.styled"
 
-const Nav = () => {
+const NavColumn = () => {
   return (
-    <StyledNav>
+    <StyledNavColumn>
       <ul>
         <li>
           <Link to="/about">
@@ -18,8 +18,8 @@ const Nav = () => {
           </Link>
         </li>
       </ul>
-    </StyledNav>
+    </StyledNavColumn>
   )
 }
 
-export default Nav
+export default NavColumn

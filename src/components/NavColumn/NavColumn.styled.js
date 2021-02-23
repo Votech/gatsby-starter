@@ -1,6 +1,6 @@
 import styled from "styled-components"
 
-export const StyledNav = styled.nav`
+export const StyledNavColumn = styled.nav`
   ul {
     list-style-type: none;
     padding: 0;
@@ -11,6 +11,7 @@ export const StyledNav = styled.nav`
 
       p {
         font-size: 2rem;
+        color: ${({ theme }) => theme.colors.black};
       }
     }
   }
