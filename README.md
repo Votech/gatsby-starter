@@ -8,7 +8,7 @@
   Gatsby custom starter 
 </h1>
 
-Gatsby starter created to kick save time and to DRY
+Gatsby starter with a SEO component, User navigation, gatsby-image and styled components.
 
 ## 🧐 What's inside?
 
